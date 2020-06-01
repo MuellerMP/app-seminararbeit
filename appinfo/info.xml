@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>seminararbeit</id>
+    <name>Seminararbeit</name>
+    <summary>test app</summary>
+    <description><![CDATA[test app to demonstrate the Nextcloud API]]></description>
+    <version>18.0.0</version>
+    <licence>agpl</licence>
+    <author>Mirko Müller</author>
+    <namespace>SeminarTest</namespace>
+    <category>office</category>
+    <bugs>https://github.com/MuellerMP/app-seminararbeit</bugs>
+    <dependencies>
+        <nextcloud min-version="16" max-version="19"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Seminararbeit</name>
+            <route>seminararbeit.page.index</route>
+        </navigation>
+    </navigations>
+</info>
